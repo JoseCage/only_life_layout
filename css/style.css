@@ -1,0 +1,225 @@
+body{
+	background:;
+	background-image:url('icones/fundo_body.png');
+	background-repeat:repeat-x;
+	margin-top:0px;
+}
+
+#whapper{
+	width:1000px;
+	height:auto;
+	min-height:600px;
+	margin:auto;
+	border:;
+	padding:5px;
+}
+
+#banner{
+	width:980px;
+	min-height:80px;
+	margin:auto;
+	padding:10px;
+
+}
+
+#menu-top{
+	width:980px;
+	min-height:30px;
+	padding:10px;
+	padding-top:0px;
+	margin:auto;
+	border:1px solid black;
+	background:#122625;
+	border-radius:5px;
+
+}
+
+
+#apresentation{
+	width:900px;
+	height:260px;
+	padding:10px;
+	margin:auto;
+	border:1px solid black;
+	background:;
+	border-radius:5px;
+	margin-top:10px;
+}
+
+#conteudo{
+	width:610px;
+	min-height:300px;
+	padding:10px;
+	float:left;
+	background:;
+	margin-left:40px;
+	margin-top:10px;
+
+}
+
+#aside-right{
+	width:260px;
+	min-height:300px;
+	padding:10px;
+	float:right;
+	background:#f4f4f4;
+	
+	margin-right:40px;
+	margin-top:10px;
+}
+#aside-right ul{
+	list-style:none;
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+}
+#aside-right li a{
+	display:block;
+	text-decoration:none;
+	color:#666666;
+	font-family:candara;
+	padding:5px;
+	font-size:17px;
+}
+#aside-right li a:hover{
+	color:black;
+}
+/* Logo dentro do header-banner*/
+#banner h1{
+	display:block;
+	margin-bottom:0px;
+	font-size:40px;
+	margin-left:40px;
+	font-family:candara;
+	text-shadow: silver 2px 2px 3px;
+}
+
+/* Menu links de navegação do top*/
+#menu-top ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+
+}
+#menu-top li{
+	float:left;
+}
+#menu-top li a{
+	display:block;
+	text-decoration:none;
+	margin-left:5px;
+	width:auto;
+	padding:5px;
+	background:;
+	font-family:candara;
+	font-size:20px;
+	color:#a4adaf;
+	font-weight:bold;
+}
+#menu-top a:hover{
+	color:white;
+}
+#menu-top li a:before{
+	content:url(icones/icon-menu.png);
+	margin-right:10px;
+}
+#menu-top .important{
+	font-size:15px;
+	color:#bcd1ed;
+
+}
+/* Destacando a página corrente */
+body#home a#pg1, body#pagina-um a#pg2 /* Assim para todas as páginas...*/{
+color:white!important;
+}
+
+/* Font do conteúdo*/
+#conteudo p{
+	font-size:17px;
+	font-family:candara;
+	text-align:justify;
+}
+#conteudo img{
+	display:block;
+	float:left;
+	margin-right:10px;
+	border:;
+}
+h1{
+	font-family:candara;
+}
+#aside-right h1{
+	display:block;
+	padding:5px;
+	background:#f0ecec;
+	background-image:-webkit-linear-gradient(white,#e7e6e6);
+	background-image:-moz-linear-gradient(white,#e7e6e6);
+	background-image:-o-linear-gradient(white,#e7e6e6);
+	border-radius:5px;
+	border:1px solid silver;
+	margin:0px;
+	text-align:center;
+
+}
+/* icones-redes */
+#icones-redes{
+	float:right;
+	margin-top:25px;
+	/*margin-right:40px;*/
+	padding:3px;
+	border-radius:5px;
+	box-shadow: silver 1px 1px 2px inset;
+}
+#icones-redes a:hover{
+   opacity:0.60;
+}
+
+#icones-redes a{
+	margin-left:10px;
+}
+#icones-redes img{
+	 border:0!important;
+}
+#divHidden{/* Mantem o footer o lugar onde se encontra*/
+	clear:both;
+}
+footer{
+	width:1000px;
+	height:40px;
+	margin:auto;
+	background:silver;
+	border-radius:5px;
+	padding:10px;
+	margin-top:80px;
+}
+footer h3{
+	color:gray;
+	width:400px;
+	display:block;
+	border-radius:3px;
+	border:1px solid gray;
+	padding:3px;
+	text-align:center;
+	margin-top:5px;
+	font-family:candara;
+	opacity:0.60;
+	background:#e7e6e6;
+}
+/* Link more 'mais' cotinuar lendo*/
+#more{
+	text-decoration:none;
+	color:black;
+	display:block;
+	width:150px;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid silver;
+	text-align:center;
+	font-family:candara;
+	background-image:-webkit-linear-gradient(white,#e7e6e6);
+	background-image:-moz-linear-gradient(white,#e7e6e6);
+	background-image:-o-linear-gradient(white,#e7e6e6);
+}
+#more:hover{
+	opacity:0.70;
+}
